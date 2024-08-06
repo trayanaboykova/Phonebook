@@ -7,6 +7,11 @@ public class Contact {
     public Contact() {
     }
 
+    public Contact(String name, String number) {
+        this.name = name;
+        this.number = number;
+    }
+
     public String getName() {
         return name;
     }
